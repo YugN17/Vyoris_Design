@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme"
+
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+       android:background="?attr/colorPrimary"
+        android:id="@+id/toolbar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_app"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/hh" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="230dp"
+      android:layout_margin="15dp"
+      android:orientation="vertical"
+      android:background="@drawable/rectangle">
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+
+          android:layout_marginTop="20dp"
+          android:src="@drawable/index"
+          android:layout_gravity="center_horizontal"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Scan and Pay"
+          android:textSize="25dp"
+          android:layout_marginTop="20dp"
+          android:textColor="#000000"
+          android:textStyle="bold"
+          android:gravity="center_horizontal"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Lorem Ipsum is simple dummy text"
+          android:textSize="20dp"
+          android:textColor="#000000"
+          android:gravity="center_horizontal"
+          />
+
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+       android:id="@+id/transfer_money"
+        android:background="@drawable/rectangle">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ggh"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receive Money"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem Ipsum is simple dummy text"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
